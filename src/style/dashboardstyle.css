@@ -1,0 +1,38 @@
+.dashboard-container {
+  height: 100vh;
+  display: flex;
+  background-color: #f4f4f4;
+}
+
+.top-right {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.email {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+
+.logout-button {
+  padding: 10px 12px;
+  border: none;
+  background-color: #ff4d4d;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.logout-button:hover {
+  background-color: #cc0000;
+}
+
+.welcome-message {
+  text-align: center;
+  font-size: 24px;
+}
